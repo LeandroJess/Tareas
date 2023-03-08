@@ -88,6 +88,15 @@ Algoritmo BoletaPagoDocentes
 		FinSi
 	FinSi
 	
+	//preguntar si tiene facturas
+		//cuanto monto tiene 
+		//restar monto - sueldo
+		//si es posivo >0 no paga RC IVa
+		//SI ES NEGATIVO<0 MULTIPLICAR SALDO * 13%
+		//RC IVA >9500
+		//preguntar si tiene multas
+		//multas sueldo menos 1% por multa
+	
     // Calcular el neto a pagar
     LiquidoPagable <- TotalIngresos - TotalEgresos
 	
