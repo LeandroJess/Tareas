@@ -1,0 +1,11 @@
+#Información
+print("============================================")
+print("Por favor ingrese la siguiente información:")
+print("============================================")
+nombre=input("Nombre y Apellido:")
+cargo=input("Cargo actual:")
+mes=input("Mes en el que se percibe el sueldo:")
+CI=int(input("Número de identificación (CI):"))
+Sueldo=int(input("Sueldo mensual:"))
+horasTrabajadas=int(input("Horas trabajadas en el mes:"))
+añosAntiguedad=int(input("Años de antigüedad:"))
